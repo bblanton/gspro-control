@@ -1,6 +1,6 @@
 # Binaries
-gspro-control
-gspro-control.exe
+/gspro-control
+/gspro-control.exe
 dist/
 
 # Go build cache
