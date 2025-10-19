@@ -14,3 +14,31 @@ Thumbs.db
 # Local config
 actions.json
 
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Test & coverage outputs
+coverage.out
+*.cover
+*.coverprofile
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Editor/IDE settings
+.vscode/
+.idea/
+*.iml
+
+# Logs & temp files
+*.log
+*.tmp
+*.temp
+
