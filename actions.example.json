@@ -1,9 +1,40 @@
 {
+  "toggle_ui": ["esc"],
+  "clear_tracers": ["f1"],
+  "zoom_to_green": ["f3"],
+  "free_float_camera": ["f5"],
+  "console_short": ["f8"],
+  "console_tall": ["f9"],
+  "full_screen": ["f11"],
+
+  "cam_go_to_ball": ["5"],
+  "cam_fly_to_ball": ["6"],
+  "goto_ball": ["8"],
+  "prev_hole": ["9"],
+  "next_hole": ["0"],
+
   "mulligan": ["ctrl", "m"],
-  "gimme": ["ctrl", "g"],
-  "concede": ["ctrl", "q"],
-  "next_hole": ["ctrl", "]"],
-  "prev_hole": ["ctrl", "["]
+  "pin_indicator": ["p"],
+  "fly_over": ["o"],
+  "line_of_sight_toggle": ["b"],
+  "putt_toggle": ["u"],
+  "heat_map": ["y"],
+  "vertical_dots": ["d"],
+  "shot_cam": ["j"],
+  "lighting_menu": ["l"],
+  "fps": ["f"],
+  "hud_toggle": ["h"],
+  "green_grid": ["g"],
+  "prev_club": ["k"],
+  "next_club": ["i"],
+  "toggle_grass": ["z"],
+  "toggle_water": ["r"],
+  "scorecard": ["t"],
+  "shadow_decrease": [","],
+  "shadow_increase": ["."],
+  "mute": ["-"],
+  "sound_on": ["shift", "="],
+  "fast_forward_hold": ["space"]
 }
 
 
