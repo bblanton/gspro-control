@@ -1,0 +1,16 @@
+# Binaries
+gspro-control
+gspro-control.exe
+dist/
+
+# Go build cache
+bin/
+pkg/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Local config
+actions.json
+

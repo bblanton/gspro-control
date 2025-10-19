@@ -1,0 +1,9 @@
+{
+  "mulligan": ["ctrl", "m"],
+  "gimme": ["ctrl", "g"],
+  "concede": ["ctrl", "q"],
+  "next_hole": ["ctrl", "]"],
+  "prev_hole": ["ctrl", "["]
+}
+
+
