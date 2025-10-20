@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>GSPro Control</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          screens: {
+            iphone: "390px",
+            ipad: "768px"
+          }
+        }
+      }
+    };
+  </script>
+  <link rel="apple-touch-icon" href="./assets/icon.png">
+  <meta name="theme-color" content="#0f172a">
+  <style>
+    /* Prevent iOS font size adjustments */
+    html { -webkit-text-size-adjust: 100%; }
+  </style>
+</head>
+<body class="min-h-screen bg-slate-900 text-white antialiased pt-[env(safe-area-inset-top)] pb-[env(safe-area-inset-bottom)] pl-[env(safe-area-inset-left)] pr-[env(safe-area-inset-right)]">
+  <main class="mx-auto max-w-screen-md px-4 py-6">
+    <header class="mb-6 flex items-center justify-between">
+      <h1 class="text-2xl font-semibold">GSPro Control</h1>
+      <div id="connection-status" class="text-sm text-slate-400">Connecting…</div>
+    </header>
+
+    <section id="actions" class="grid grid-cols-2 gap-4 ipad:grid-cols-3">
+      <!-- Buttons will be injected by js/app.js -->
+    </section>
+  </main>
+
+  <script src="./js/app.js"></script>
+</body>
+</html>
+
+

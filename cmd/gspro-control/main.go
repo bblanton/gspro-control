@@ -17,6 +17,9 @@ func main() {
 	mux := http.NewServeMux()
 	server.RegisterRoutes(mux)
 
+	// Serve static UI from ./ui at root
+	mux.Handle("/", http.FileServer(http.Dir("./ui")))
+
 	log.Printf("GSPro Control API listening on %s", addr)
 	if err := http.ListenAndServe(addr, withCORS(mux)); err != nil {
 		log.Fatalf("server error: %v", err)
